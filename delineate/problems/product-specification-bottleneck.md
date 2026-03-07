@@ -17,4 +17,4 @@ High — this is the defining product problem of the agentic coding era. Teams w
 Continuous. Every product team using AI coding tools hits this daily. The problem compounds — each unspecified feature creates more surface area to maintain, more decisions to untangle, and more distance between what was built and why.
 
 ## Related
-- delineate/prd/delineate-v1.md
+- delineate/prd/001-active-delineate-v1.md

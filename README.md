@@ -96,7 +96,7 @@ Automated intake from external sources â€” Slack, analytics, customer support â€
 
 ## See it in action
 
-This repo uses Delineate to build itself. See the [first problem](delineate/problems/product-specification-bottleneck.md), the [first PRD](delineate/prd/delineate-v1.md), the [shaped issues](delineate/shaped-issues/) that came from it, and the [roadmap](delineate/roadmap.md).
+This repo uses Delineate to build itself. See the [first problem](delineate/problems/product-specification-bottleneck.md), the [first PRD](delineate/prd/001-active-delineate-v1.md), the [shaped issues](delineate/shaped-issues/) that came from it, and the [roadmap](delineate/roadmap.md).
 
 ---
 

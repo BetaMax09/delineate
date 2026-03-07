@@ -1,6 +1,6 @@
 ## Create the four remaining workflow templates
 
-**Context:** [PRD M1: People can understand what Delineate is and start using the workflow by hand](../prd/delineate-v1.md#m1) — templates are the core of the manual workflow. Without them, there's nothing for a user to start with.
+**Context:** [PRD M1: People can understand what Delineate is and start using the workflow by hand](../prd/001-active-delineate-v1.md#m1) — templates are the core of the manual workflow. Without them, there's nothing for a user to start with.
 
 **Description:** Create the problem, feedback, PRD, and decision templates as files in `delineate/templates/`. The shaped issue template already exists. These templates are defined in `delineate.md` (the spec) — pull them from there, but they live as standalone files a user can copy and fill in. The templates should work as-is: a user copies one, fills in the brackets, and has a well-structured artifact.
 

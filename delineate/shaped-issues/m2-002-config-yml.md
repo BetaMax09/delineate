@@ -1,6 +1,6 @@
 ## Create config.yml for repo and workflow configuration
 
-**Context:** [PRD M2: The agent workflow works](../prd/delineate-v1.md#m2) — agents.md needs to know where things live and how the team works. config.yml is the bridge between the generic workflow and a specific team's setup.
+**Context:** [PRD M2: The agent workflow works](../prd/001-active-delineate-v1.md#m2) — agents.md needs to know where things live and how the team works. config.yml is the bridge between the generic workflow and a specific team's setup.
 
 **Description:** Create `delineate/config.yml` with configuration for: Delineate directory paths (defaults that work out of the box), issue tracker settings (which tool, any CLI flags), and the commit model preference (propose vs. commit). Keep it minimal — only settings that the agent actually needs to read. Don't configure things that can be inferred.
 

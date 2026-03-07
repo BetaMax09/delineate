@@ -1,6 +1,6 @@
 ## Write agents.md — the workflow engine
 
-**Context:** [PRD M2: The agent workflow works](../prd/delineate-v1.md#m2) — motivated by [Product specification is now the bottleneck](../problems/product-specification-bottleneck.md). This is the file that turns Delineate from templates into a workflow. Without it, Delineate is a folder of markdown files. With it, any AI coding agent can run the Surface/Define/Shape workflow.
+**Context:** [PRD M2: The agent workflow works](../prd/001-active-delineate-v1.md#m2) — motivated by [Product specification is now the bottleneck](../problems/product-specification-bottleneck.md). This is the file that turns Delineate from templates into a workflow. Without it, Delineate is a folder of markdown files. With it, any AI coding agent can run the Surface/Define/Shape workflow.
 
 **Description:** Write `delineate/agents.md` using the structured intent approach — define the workflow steps, expected inputs and outputs, and principles to follow, but let the agent reason about how. The file defines three commands (`delineate:surface`, `delineate:define`, `delineate:shape`) that any AI agent can follow.
 

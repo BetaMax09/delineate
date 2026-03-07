@@ -17,4 +17,4 @@ Every time someone has a PRD with active milestones and shaped issues. The manua
 
 ## Related
 - delineate/problems/product-specification-bottleneck.md
-- delineate/prd/autonomous-loop.md
+- delineate/prd/002-draft-autonomous-loop.md

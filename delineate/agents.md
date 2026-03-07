@@ -145,7 +145,22 @@ When reading PRDs, always check milestone status:
 
 PRDs transition: `draft → active → implemented`. Milestones within a PRD transition independently: `draft → active → shipped`.
 
+**When does a milestone become `active`?** When shaped issues from that milestone are actively being worked on — not when they are merely shaped. Shaping issues is the end of `delineate:shape`; execution is what triggers `active`. The human sets milestone status to `active` when work begins. You never activate milestones unilaterally.
+
+**When does a PRD become `active`?** When at least one of its milestones is `active`. The PRD filename and frontmatter status should match: a PRD with an active milestone is `active`, not `draft`.
+
 When a PRD's status is `implemented`, all milestones are shipped. The PRD is now documentation of *why the code is the way it is*.
+
+---
+
+## New PRD vs. Milestone Addition
+
+When a new problem or objective surfaces, decide before creating anything:
+
+- **Add a milestone to an existing PRD** if the new work is a natural extension of an existing goal — same product surface, same user segment, same core problem. The existing PRD's narrative still holds.
+- **Create a new PRD** if the new work is a distinct initiative — different problem, different user segment, or a scope large enough that it would distort the existing PRD's focus.
+
+When in doubt, ask: does this work belong in the existing PRD's git history, or does it deserve its own? If someone reads the existing PRD three months from now, would the new milestone feel like it belongs, or would it feel like scope creep?
 
 ---
 
@@ -164,7 +179,7 @@ Regardless of mode, never `git push` without explicit human instruction.
 
 - Problems: `delineate/problems/[descriptive-name].md`
 - Feedback: `delineate/feedback/[source]-[date]-[short-description].md`
-- PRDs: `delineate/prd/[project-name].md`
+- PRDs: `delineate/prd/[number]-[status]-[project-name].md` (e.g. `001-active-delineate-v1.md`). Number by creation order. Status matches frontmatter: `draft`, `active`, or `implemented`. Update the filename when status changes.
 - Decisions: `delineate/decisions/[decision-name].md`
 - Shaped issues: `delineate/shaped-issues/[milestone]-[number]-[short-name].md`
 

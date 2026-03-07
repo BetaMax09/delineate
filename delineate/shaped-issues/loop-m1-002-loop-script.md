@@ -1,6 +1,6 @@
 ## Create the loop script
 
-**Context:** [PRD M1: The loop executes shaped issues](../prd/autonomous-loop.md) — motivated by [The product workflow can't run autonomously](../problems/autonomous-workflow-execution.md). The mechanism that keeps the agent running. Simple as possible — the intelligence is in the prompt and agents.md, not in the script.
+**Context:** [PRD M1: The loop executes shaped issues](../prd/002-draft-autonomous-loop.md) — motivated by [The product workflow can't run autonomously](../problems/autonomous-workflow-execution.md). The mechanism that keeps the agent running. Simple as possible — the intelligence is in the prompt and agents.md, not in the script.
 
 **Description:** Create `loop.sh` at the repo root. A bash script that repeatedly invokes the AI agent with `PROMPT_build.md`, giving each iteration a fresh context window. The script should:
 

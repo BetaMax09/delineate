@@ -1,6 +1,6 @@
 ## Write the build prompt
 
-**Context:** [PRD M1: The loop executes shaped issues](../prd/autonomous-loop.md) — motivated by [The product workflow can't run autonomously](../problems/autonomous-workflow-execution.md). The build prompt is the entry point for autonomous execution. It tells the agent: here's where you are, here's how to figure out what to do next, here's how to do it.
+**Context:** [PRD M1: The loop executes shaped issues](../prd/002-draft-autonomous-loop.md) — motivated by [The product workflow can't run autonomously](../problems/autonomous-workflow-execution.md). The build prompt is the entry point for autonomous execution. It tells the agent: here's where you are, here's how to figure out what to do next, here's how to do it.
 
 **Description:** Create `PROMPT_build.md` at the repo root. This is the file that gets piped into the agent on each loop iteration. It should:
 

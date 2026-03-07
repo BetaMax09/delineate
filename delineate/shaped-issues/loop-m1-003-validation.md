@@ -1,6 +1,6 @@
 ## Create the validation script
 
-**Context:** [PRD M1: The loop executes shaped issues](../prd/autonomous-loop.md) — motivated by [The product workflow can't run autonomously](../problems/autonomous-workflow-execution.md). Backpressure that keeps the autonomous loop on track. Without validation, the agent can drift, produce malformed output, or break the workflow structure.
+**Context:** [PRD M1: The loop executes shaped issues](../prd/002-draft-autonomous-loop.md) — motivated by [The product workflow can't run autonomously](../problems/autonomous-workflow-execution.md). Backpressure that keeps the autonomous loop on track. Without validation, the agent can drift, produce malformed output, or break the workflow structure.
 
 **Description:** Create `delineate/validate.sh` — a script the agent runs after each piece of work to check structural integrity. This is the backpressure mechanism. Start with structural checks (can be automated); content quality checks come later.
 

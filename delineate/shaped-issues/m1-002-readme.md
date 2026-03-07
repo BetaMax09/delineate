@@ -1,6 +1,6 @@
 ## Write the README
 
-**Context:** [PRD M1: People can understand what Delineate is and start using the workflow by hand](../prd/delineate-v1.md#m1) — motivated by [Product specification is now the bottleneck](../problems/product-specification-bottleneck.md). The README is the front door. If it doesn't land, nothing else matters.
+**Context:** [PRD M1: People can understand what Delineate is and start using the workflow by hand](../prd/001-active-delineate-v1.md#m1) — motivated by [Product specification is now the bottleneck](../problems/product-specification-bottleneck.md). The README is the front door. If it doesn't land, nothing else matters.
 
 **Description:** Write `README.md` at the repo root. Practical-first tone for a mixed audience of product people and developers. It should communicate: what Delineate is, the problem it solves (specification is the bottleneck, not engineering), how the workflow works (Surface > Define > Deliver), and how to start using it by hand today. The README is not the spec — it's the invitation. Keep it short enough to read in under 3 minutes.
 
@@ -19,7 +19,7 @@ The repo already contains working examples of the workflow (a real problem file,
 **Code Pointers:**
 - `delineate.md` for the full spec (draw from, don't duplicate)
 - `delineate/problems/product-specification-bottleneck.md` (real example to reference)
-- `delineate/prd/delineate-v1.md` (real example to reference)
+- `delineate/prd/001-active-delineate-v1.md` (real example to reference)
 - `delineate/templates/` (link to these for getting started)
 
 **Out of Scope:**
