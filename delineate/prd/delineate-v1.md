@@ -67,7 +67,7 @@ This is the minimum viable whole cake: someone discovers the repo, understands t
 - Should the README include a quick visual (ASCII diagram) of the Surface > Define > Deliver flow?
 
 ### M2: The agent workflow works
-status: active
+status: shipped
 
 `agents.md` is written and an AI coding agent can run the three workflow modes: `delineate:surface`, `delineate:define`, `delineate:shape`. The agent reads existing context (problems, feedback, PRDs) before writing. The agent considers deletion and simplification before proposing new work.
 
