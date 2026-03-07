@@ -1,0 +1,24 @@
+# Delineate Configuration
+# Team-specific settings for the Delineate workflow.
+
+# Commit model: how the agent handles file changes.
+#   propose - (default) agent writes files but does not commit. Human reviews and commits.
+#   commit  - agent commits with a descriptive message. Human reviews before pushing.
+commit_model: propose
+
+# Issue tracker: where shaped issues get created.
+#   github  - uses `gh issue create`
+#   linear  - uses Linear CLI or API
+#   jira    - uses Jira CLI or API
+#   manual  - agent outputs issue text, human creates it manually
+tracker: github
+
+# Delineate directory paths (defaults work out of the box).
+# Only override if your repo uses a non-standard layout.
+# paths:
+#   problems: delineate/problems
+#   feedback: delineate/feedback
+#   prd: delineate/prd
+#   decisions: delineate/decisions
+#   shaped_issues: delineate/shaped-issues
+#   templates: delineate/templates

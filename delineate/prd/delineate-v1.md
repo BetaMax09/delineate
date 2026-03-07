@@ -43,7 +43,7 @@ The workflow should never feel like bureaucracy. If capturing a problem takes lo
 Each milestone delivers a complete, functional increment. M1 is a simple cake. M2 adds layers. M3 adds decoration. If only M1 ships, users still have something whole and useful.
 
 ### M1: People can understand what Delineate is and start using the workflow by hand
-status: active
+status: shipped
 
 A README that clearly communicates what Delineate is, who it's for, and the problem it solves — written for a mixed audience of product people and developers. Alongside it, the repo structure and templates exist so anyone can start using the workflow manually with nothing but a text editor and git.
 
@@ -67,7 +67,7 @@ This is the minimum viable whole cake: someone discovers the repo, understands t
 - Should the README include a quick visual (ASCII diagram) of the Surface > Define > Deliver flow?
 
 ### M2: The agent workflow works
-status: draft
+status: active
 
 `agents.md` is written and an AI coding agent can run the three workflow modes: `delineate:surface`, `delineate:define`, `delineate:shape`. The agent reads existing context (problems, feedback, PRDs) before writing. The agent considers deletion and simplification before proposing new work.
 
