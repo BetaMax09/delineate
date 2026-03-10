@@ -102,7 +102,7 @@ If significant alternatives were evaluated — meaningful options with real trad
 
 ---
 
-### `delineate:shape`
+### `delineate:deliver`
 
 Turn an active PRD milestone into shaped issues ready for execution.
 

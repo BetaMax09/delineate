@@ -64,12 +64,14 @@ your-repo/
 ## Getting started
 
 1. Copy the `delineate/` folder into your repo.
-2. Capture a problem: copy `templates/problem.md`, fill in the brackets.
-3. Write a PRD: copy `templates/prd.md`, link it to your problem, define milestones.
-4. Shape issues: copy `templates/shaped-issue.md`, write issues from your active milestone.
-5. Create the issues in your tracker and build.
+2. Describe a problem to your agent — what's broken, what's missing, what users are telling you. It writes a structured problem file into `delineate/problems/`.
+3. When you have a few problems captured: "Run `delineate:surface`." The agent finds patterns and proposes priorities.
+4. When you're ready to spec: "Run `delineate:define` for [problem]." The agent drafts a PRD.
+5. When you're ready to build: "Run `delineate:deliver` for [milestone]." The agent produces shaped issues for your tracker.
 
-No agent required. The templates work by hand with a text editor and git. When you're ready for agent acceleration, add an `agents.md` file — the agent uses the same workflow you do.
+Review, edit, and commit at each step. The agent proposes — you decide. Everything also works by hand with a text editor and git.
+
+Automated intake from external sources — Slack, analytics, customer support — is on the [roadmap](delineate/roadmap.md).
 
 ## Principles
 
@@ -94,7 +96,7 @@ No agent required. The templates work by hand with a text editor and git. When y
 
 ## See it in action
 
-This repo uses Delineate to build itself. See the [first problem](delineate/problems/product-specification-bottleneck.md), the [first PRD](delineate/prd/delineate-v1.md), and the [shaped issues](delineate/shaped-issues/) that came from it.
+This repo uses Delineate to build itself. See the [first problem](delineate/problems/product-specification-bottleneck.md), the [first PRD](delineate/prd/delineate-v1.md), the [shaped issues](delineate/shaped-issues/) that came from it, and the [roadmap](delineate/roadmap.md).
 
 ---
 
