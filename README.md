@@ -22,14 +22,6 @@ If your spec is precise enough that an agent can execute it without questions, t
 
 ## The workflow
 
-Three modes, used by humans or agents interchangeably.
-
-**Surface** — Problems and feedback become patterns, then priorities. The first instinct is always to question whether work should exist: can this be solved by removing something? By simplifying something that already exists? Only after deletion and simplification are exhausted does it propose new work.
-
-**Define** — Priorities become a PRD with milestones. Each milestone delivers a complete, functional increment — a whole cake, not a foundation waiting for walls. The PRD is a living document, updated with diffs, not replaced. `git log` on the PRD file is the decision history.
-
-**Deliver** — Active milestones become shaped issues with context, acceptance criteria, and code pointers. Issues go into your tracker — GitHub Issues, Linear, Jira, whatever you use. By the time an issue reaches execution, it's well-specified enough that an agent can execute it without questions.
-
 ```
 Problems + Feedback
         ↓
@@ -43,6 +35,14 @@ Problems + Feedback
    (well-specified, ready for execution)
 ```
 
+Three modes, used by humans or agents interchangeably.
+
+**Surface** — Problems and feedback become patterns, then priorities. The first instinct is always to question whether work should exist: can this be solved by removing something? By simplifying something that already exists? Only after deletion and simplification are exhausted does it propose new work.
+
+**Define** — Priorities become a PRD with milestones. Each milestone delivers a complete, functional increment — a whole cake, not a foundation waiting for walls. The PRD is a living document, updated with diffs, not replaced. `git log` on the PRD file is the decision history.
+
+**Deliver** — Active milestones become shaped issues with context, acceptance criteria, and code pointers. Issues go into your tracker — GitHub Issues, Linear, Jira, whatever you use. By the time an issue reaches execution, it's well-specified enough that an agent can execute it without questions.
+
 ## Repo structure
 
 Install into your existing repo:
@@ -55,7 +55,10 @@ your-repo/
     ├── prd/            # Living PRDs with milestone status
     ├── decisions/      # Records of significant choices
     ├── shaped-issues/  # Issues shaped from active milestones
-    └── templates/      # Templates for all of the above
+    ├── templates/      # Templates for all of the above
+    ├── roadmap.md      # Sequential index of PRDs
+    ├── agents.md       # Workflow instructions for AI agents
+    └── config.yml      # Team-specific settings
 ```
 
 ## Getting started

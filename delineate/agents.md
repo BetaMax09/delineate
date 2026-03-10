@@ -33,6 +33,7 @@ Turn raw problems and feedback into prioritised patterns.
 **What to read:**
 - All files in `delineate/problems/`
 - All files in `delineate/feedback/`
+- `delineate/roadmap.md` — understand the current PRD sequence and what's already planned
 - `delineate/prd/*.md` — check existing PRDs so you don't resurface solved problems. Milestones marked `shipped` describe current state. Milestones marked `active` are already being worked on.
 - `delineate/decisions/` — check past decisions so you don't re-investigate closed questions.
 
@@ -73,6 +74,7 @@ Turn prioritised problems into a PRD with milestones.
 **What to read:**
 - The prioritised problems (from Surface output, or specific problem files the human points you to)
 - Related feedback files for additional context
+- `delineate/roadmap.md` — understand where this PRD fits in the sequence and what it can depend on
 - `delineate/templates/prd.md` — follow this structure exactly
 - Existing PRDs in `delineate/prd/` — for context on current state and to avoid contradictions
 - `delineate/decisions/` — for past reasoning that may constrain the approach
