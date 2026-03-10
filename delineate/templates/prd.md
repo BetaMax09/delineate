@@ -22,12 +22,24 @@ Each milestone delivers a complete, functional increment. M1 is a simple cake. M
 ### M1: [Name]
 status: [draft | active | shipped]
 
-[Scope, assumptions, open questions]
+**Scope:** [What this milestone includes]
+
+**Acceptance criteria:**
+- [ ] [How we know this is done]
+
+**Open questions:**
+- [Unresolved decisions specific to this milestone]
 
 ### M2: [Name]
 status: [draft | active | shipped]
 
-...
+**Scope:** [What this milestone includes]
+
+**Acceptance criteria:**
+- [ ] [How we know this is done]
+
+**Open questions:**
+- [Unresolved decisions specific to this milestone]
 
 ## Open questions
 - [Unresolved decisions that need evidence or discussion]

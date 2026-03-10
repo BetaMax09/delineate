@@ -94,7 +94,7 @@ A PRD file following the template structure:
 
 **How to present:**
 
-Output the full PRD as a markdown file. Name it descriptively: `delineate/prd/[project-name].md`.
+Output the full PRD as a markdown file. Name it following the convention: `delineate/prd/[number]-[status]-[project-name].md` (e.g. `003-draft-onboarding.md`).
 
 If significant alternatives were evaluated — meaningful options with real tradeoffs — also produce a decision record using `delineate/templates/decision.md` in `delineate/decisions/`.
 
@@ -145,7 +145,7 @@ When reading PRDs, always check milestone status:
 
 PRDs transition: `draft → active → implemented`. Milestones within a PRD transition independently: `draft → active → shipped`.
 
-**When does a milestone become `active`?** When shaped issues from that milestone are actively being worked on — not when they are merely shaped. Shaping issues is the end of `delineate:shape`; execution is what triggers `active`. The human sets milestone status to `active` when work begins. You never activate milestones unilaterally.
+**When does a milestone become `active`?** When shaped issues from that milestone are actively being worked on — not when they are merely shaped. Shaping issues is the end of `delineate:deliver`; execution is what triggers `active`. The human sets milestone status to `active` when work begins. You never activate milestones unilaterally.
 
 **When does a PRD become `active`?** When at least one of its milestones is `active`. The PRD filename and frontmatter status should match: a PRD with an active milestone is `active`, not `draft`.
 

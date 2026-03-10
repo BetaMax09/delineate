@@ -7,11 +7,11 @@
 commit_model: propose
 
 # Issue tracker: where shaped issues get created.
+#   manual  - (default) agent outputs issue text, human creates it manually
 #   github  - uses `gh issue create`
 #   linear  - uses Linear CLI or API
 #   jira    - uses Jira CLI or API
-#   manual  - agent outputs issue text, human creates it manually
-tracker: github
+tracker: manual
 
 # Delineate directory paths (defaults work out of the box).
 # Only override if your repo uses a non-standard layout.
@@ -20,5 +20,5 @@ tracker: github
 #   feedback: delineate/feedback
 #   prd: delineate/prd
 #   decisions: delineate/decisions
-#   shaped_issues: delineate/shaped-issues
+#   shaped-issues: delineate/shaped-issues
 #   templates: delineate/templates

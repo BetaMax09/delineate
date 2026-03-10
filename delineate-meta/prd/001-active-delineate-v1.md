@@ -79,13 +79,13 @@ This milestone turns Delineate from "templates you fill in by hand" to "a workfl
 - Agent can read all problems and feedback, identify patterns, and propose priorities
 - Agent applies the deletion algorithm: question > delete > simplify > build
 - Agent can draft a PRD from prioritised problems
-- Agent can shape issues from an active PRD milestone
+- Agent can deliver shaped issues from an active PRD milestone
 - Agent creates issues in the team's tracker (GitHub Issues via `gh issue create` as the first supported target)
 
 **Acceptance criteria:**
 - [ ] An agent can run `delineate:surface` and produce a prioritised pattern list from existing problem and feedback files
 - [ ] An agent can run `delineate:define` and draft a PRD with milestones from prioritised problems
-- [ ] An agent can run `delineate:shape` and produce well-formed issues with context, acceptance criteria, and code pointers from an active PRD milestone
+- [ ] An agent can run `delineate:deliver` and produce well-formed issues with context, acceptance criteria, and code pointers from an active PRD milestone
 - [ ] The human reviews and approves at each stage — the agent proposes, never commits unilaterally
 - [ ] Issues created by the agent link back to the PRD section and problem that motivated them
 

@@ -7,12 +7,12 @@ status: draft
 ## Problems this solves
 - [The product workflow can't run autonomously](../problems/autonomous-workflow-execution.md)
 
-Delineate defines a structured workflow (Surface > Define > Shape > Deliver) and agents.md encodes it as instructions any agent can follow. But the agent can't run the workflow without constant human prompting. Each step requires manual invocation — "now read the problems", "now draft the PRD", "now shape the issues." The specification is clear enough for autonomous execution; the mechanism to run it doesn't exist.
+Delineate defines a structured workflow (Surface > Define > Deliver) and agents.md encodes it as instructions any agent can follow. But the agent can't run the workflow without constant human prompting. Each step requires manual invocation — "now read the problems", "now draft the PRD", "now shape the issues." The specification is clear enough for autonomous execution; the mechanism to run it doesn't exist.
 
 ## Approach
 A loop mechanism inspired by the Ralph Wiggum pattern: a simple script repeatedly invokes the agent with a build prompt, each iteration in a fresh context window. The agent reads Delineate's own state from disk (PRDs, shaped issues, acceptance criteria), picks the next piece of work, executes it, validates the output, and commits. The loop is dumb; the prompt is smart.
 
-The key insight: Surface and Define are judgment calls — they stay human-in-the-loop. Shape and Deliver are execution — once a milestone is `active` and issues are shaped, the agent should be able to work through them autonomously. Backpressure (validation, acceptance criteria checks) catches drift.
+The key insight: Surface and Define are judgment calls — they stay human-in-the-loop. Deliver is execution — once a milestone is `active` and issues are shaped, the agent should be able to work through them autonomously. Backpressure (validation, acceptance criteria checks) catches drift.
 
 **Alternatives considered and rejected:**
 - **Build a custom orchestrator.** A daemon or service that watches the repo and dispatches agent tasks. Rejected — too much infrastructure for the value. A bash loop with a smart prompt does the same thing with zero dependencies.

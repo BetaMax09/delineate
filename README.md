@@ -63,7 +63,7 @@ your-repo/
 
 ## Getting started
 
-1. Copy the `delineate/` folder into your repo.
+1. Click **Use this template** on GitHub to create a new repo, or copy the `delineate/` folder into an existing one.
 2. Describe a problem to your agent — what's broken, what's missing, what users are telling you. It writes a structured problem file into `delineate/problems/`.
 3. When you have a few problems captured: "Run `delineate:surface`." The agent finds patterns and proposes priorities.
 4. When you're ready to spec: "Run `delineate:define` for [problem]." The agent drafts a PRD.
@@ -71,7 +71,7 @@ your-repo/
 
 Review, edit, and commit at each step. The agent proposes — you decide. Everything also works by hand with a text editor and git.
 
-Automated intake from external sources — Slack, analytics, customer support — is on the [roadmap](delineate/roadmap.md).
+Automated intake from external sources — Slack, analytics, customer support — is on the [roadmap](delineate-meta/roadmap.md).
 
 ## Principles
 
@@ -96,7 +96,7 @@ Automated intake from external sources — Slack, analytics, customer support �
 
 ## See it in action
 
-This repo uses Delineate to build itself. See the [first problem](delineate/problems/product-specification-bottleneck.md), the [first PRD](delineate/prd/001-active-delineate-v1.md), the [shaped issues](delineate/shaped-issues/) that came from it, and the [roadmap](delineate/roadmap.md).
+This repo uses Delineate to build itself. Browse [`delineate-meta/`](delineate-meta/) to see the workflow in action — problems, PRDs, shaped issues, and roadmap.
 
 ---
 
